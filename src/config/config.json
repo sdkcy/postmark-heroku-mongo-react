@@ -1,0 +1,10 @@
+{
+  "backend": {
+    "baseURL": {
+      "development": "http://localhost:8000/api/email/",
+      "test": "http://localhost:8000/api/email/",
+      "production": "Your production backend URL"
+    }
+  },
+  "emailSender": "Your sender email"
+}

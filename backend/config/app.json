@@ -1,0 +1,30 @@
+{
+  "api": "/api",
+  "database": {
+    "path": {
+      "production": "mongodb://localhost:27017/",
+      "development": "mongodb://localhost:27017/",
+      "test": "mongodb://localhost:27017/"
+    },
+    "name": {
+      "production": "prod_postmark",
+      "development": "dev_postmark",
+      "test": "test_postmark"
+    },
+    "options": {
+      "useNewUrlParser": true,
+      "useCreateIndex": true
+    }
+  },
+  "postmarkapp": {
+    "key": "Your Postmark API key",
+    "senderEmail": "Your sender email",
+    "webHookKey": "Your webhook secret"
+  },
+  "server": {
+    "port": 8000
+  },
+  "cache": {
+    "ttl": 6000
+  }
+}
