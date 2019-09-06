@@ -1,5 +1,7 @@
 # Postmark Heroku app
 It is a client and backend app for Postmark API to send and receive email.
+It can be upload to Heroku as a live application.
+
 
 ## Tech stack
 * **express** for using RESTful Web Service and routing
